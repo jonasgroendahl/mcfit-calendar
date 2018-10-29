@@ -1,4 +1,3 @@
-console.log("events", events);
 $("#calendar").fullCalendar({
     defaultView: "agendaWeek",
     allDaySlot: false,
