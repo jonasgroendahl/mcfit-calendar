@@ -1,0 +1,101 @@
+body { 
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans";
+}
+
+#calendar {
+    padding: 30px;
+    overflow:hidden;
+}
+
+.container{
+    height: 90vh;
+}
+
+#calendar td{
+    border-style:none;
+    background-color: #eee;
+}
+
+.container img {
+    width: 100%;
+}
+
+#calendar .fc-head-container{
+    background: white;
+    border:none;
+}
+
+#calendar .fc-head-container > *{
+    border:none;
+}
+
+
+#calendar tbody tr:nth-child(4n-1) td:first-child{
+    background-color: white !important;
+    text-align:left !important;
+}
+
+#calendar tbody tr:nth-child(4n) td:first-child{
+    background-color: white !important;
+    text-align:left !important;
+}
+
+#calendar tbody tr:first-child td:first-child{
+    width: 35px !important;
+    text-align:left !important;
+    font-size: 18px;
+}
+
+
+#calendar tbody tr td{
+    border-right: solid black 1px;
+}
+
+
+.small{
+    font-size: 12px;
+    float:right;
+}
+
+#calendar .fc-event{
+    background: white;
+    color: rgba(54, 52, 52, 0.767);
+    border:solid rgb(178, 178, 179) 1px;
+    font-size: 13px;
+}
+
+#calendar .fc-event .fc-time{
+    display:none;
+}
+#calendar .fc-title{
+    padding:5px;
+}
+
+#calendar .fc-toolbar{
+    display:none;
+}
+
+
+
+
+
+#calendar thead tr{
+    background-color:white;
+}
+
+#calendar thead tr th{
+    border:none;
+    padding: 10px;
+}
+
+.footer{
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+}
+
+.bold{
+    font-weight: 900;
+}

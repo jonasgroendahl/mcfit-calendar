@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        meta(http-equiv="X-UA-Compatible", content="ie=edge")
+        title Document
+        link(href="/css/fullcalendar.min.css", rel="stylesheet")
+        link(href="/css/style.css", rel="stylesheet")
+    body
+
+     div.container
+        img(src="/header.PNG")
+        div#calendar
+        div.footer
+            p
+                span.bold Öffnungszeiten:/span Mo-Fr 08-22 Uhr und Sa-So sowie an Feiertagen 10-18 Uhr.
+            p
+                span.bold Adresse:/span Karl-Liebknecht-Straße 13, 10178 Berlin, Deutschland.
+                span.bold Telefonnummer:/span +49 30 54 00 00 100
+            p
+                span.bold E-Mail:/span info@worldofcyberobics.com
+    
+    script(src="/js/jquery.slim.min.js")
+    script(src="/js/moment.min.js")
+    script(src="/js/fullcalendar.min.js")
+    script.
+        const events = JSON.parse('!{events}');
+        console.log(events);
+    script(src="/js/main.js")
