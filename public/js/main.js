@@ -1,7 +1,7 @@
 $("#calendar").fullCalendar({
     defaultView: "agendaWeek",
     allDaySlot: false,
-    height: "parent",
+    height: 'auto',
     editable: true,
     eventDurationEditable: false,
     slotDuration: "00:30:00",
