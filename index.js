@@ -14,4 +14,6 @@ app.get("/", (___, res) => {
     res.render('index', { events: JSON.stringify(events) });
 })
 
-app.listen(3005);
+app.listen(3005, () => {
+    console.log("Listening on port 3005 - go to http://localhost:3005 to see the calendar");
+});
